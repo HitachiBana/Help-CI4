@@ -1,0 +1,21 @@
+CRITICAL - 2023-09-04 09:13:35 --> App\Controllers\Home::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\project-codeigniter-4\\public\\index.php')
+CRITICAL - 2023-09-04 09:45:02 --> Too few arguments to function App\Controllers\Coba::about(), 0 passed in D:\xampp\htdocs\project-codeigniter-4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 915 and exactly 1 expected
+in APPPATH\Controllers\Coba.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Coba->about()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\project-codeigniter-4\\public\\index.php')
+CRITICAL - 2023-09-04 09:45:54 --> Too few arguments to function App\Controllers\Coba::about(), 0 passed in D:\xampp\htdocs\project-codeigniter-4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 915 and exactly 1 expected
+in APPPATH\Controllers\Coba.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Coba->about()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coba))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\xampp\\htdocs\\project-codeigniter-4\\public\\index.php')
